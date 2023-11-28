@@ -48,6 +48,8 @@
     border-color 0.25s ease;
   position: relative;
   margin-top: 5px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .button:hover {

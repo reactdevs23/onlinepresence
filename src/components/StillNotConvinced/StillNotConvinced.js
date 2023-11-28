@@ -25,7 +25,7 @@ import {
 
 const StillNotConvinced = () => {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="stillNotConvinced">
       <h2 className={styles.title}>
         {" "}
         <span className="highlight">STILL</span> NOT CONVINCED?

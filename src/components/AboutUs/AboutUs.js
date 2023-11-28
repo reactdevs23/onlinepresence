@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./AboutUs.module.css";
 import { aboutUs } from "../../images";
+import { Link } from "react-scroll";
 
 const AboutUs = () => {
   return (
@@ -28,7 +29,16 @@ const AboutUs = () => {
           and multiple 6 figures. A broke student turned expert brand builder
           developing authority through the use of personal branding.
         </p>{" "}
-        <button className={styles.button}>Signup</button>
+        <Link
+          to="hero"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className={styles.button}
+        >
+          Signup
+        </Link>
       </div>
     </div>
   );

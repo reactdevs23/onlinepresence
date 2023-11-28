@@ -8,7 +8,7 @@ const Herosection = () => {
     e.preventDefault();
   };
   return (
-    <div className={["mainWrapper", styles.wrapper].join(" ")}>
+    <div className={["mainWrapper", styles.wrapper].join(" ")} id="hero">
       <h2 className={styles.title}>
         We're giving you access to a{" "}
         <span className="highlight">
